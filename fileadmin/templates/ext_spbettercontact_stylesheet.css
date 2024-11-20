@@ -1,0 +1,143 @@
+div.tx-spbettercontact-pi1 {
+  /*padding: 0px 24px 24px;*/
+}
+
+div.tx-spbettercontact-pi1 input,
+div.tx-spbettercontact-pi1 textarea {
+  border: 1px solid #d1d1d1;
+    height: 24px;
+  padding: 2px 3px;
+  width: 477px;
+}
+body.jp div.tx-spbettercontact-pi1 input,
+body.jp div.tx-spbettercontact-pi1 textarea {
+    width: 400px;
+}
+div.tx-spbettercontact-pi1 .gender-container input {
+    border: 0;
+}
+div.tx-spbettercontact-pi1 .gender-container input {
+    float: left;
+    margin-right: 6px;
+    width: auto !important;
+}
+div.tx-spbettercontact-pi1 .captcha-container input {
+    margin: 14px 0;
+    width: 260px !important;
+}
+
+div.tx-spbettercontact-pi1 textarea {
+  height: 180px;
+}
+div.tx-spbettercontact-pi1 p.tx_spbettercontact_button {
+    float: right;
+    margin: 4px 10px 0 0;
+}
+div.tx-spbettercontact-pi1 p.tx_spbettercontact_button input {
+  background-color: #00437b;
+  border: 1px solid #00437b;
+    color: white;
+  cursor: pointer;
+    font-size: 14px;
+  width: 150px;
+  height: 26px;
+  text-align: center;
+  padding: 4px;
+}
+
+div.tx-spbettercontact-pi1 p.tx_spbettercontact_button input:focus {
+  outline: none;
+}
+
+div.tx-spbettercontact-pi1 input.error,
+div.tx-spbettercontact-pi1 textarea.error {
+  border: 1px solid #FF0000;
+}
+
+div.tx-spbettercontact-pi1 br {
+  clear: left;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_info {
+  font-weight: bold;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_info_positive {
+  color: #01b101;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_info_negative {
+  color: #FF8F33;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_message {
+    color: red;
+    margin-left: 160px;
+  width: 410px;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_messages ul li {
+  list-style-type: square;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_label {
+  width: 160px;
+  float: left;
+  padding-top: 4px;
+}
+div.tx-spbettercontact-pi1 .gender-container .tx_spbettercontact_label {
+    float: left;
+    margin-right: 30px;
+    width: auto !important;
+}
+body.jp div.tx-spbettercontact-pi1 .tx_spbettercontact_label {
+    width: 240px;
+}
+div.tx-spbettercontact-pi1 .srfreecap-container .tx_spbettercontact_label {
+    width: 160px !important;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_button {
+  display: block;
+  /*width: 410px;*/
+  text-align: right;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_hidden {
+  position: absolute;
+  top: -2000px;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_captcha {
+  width: 220px;
+  overflow: visible;
+}
+
+div.tx-spbettercontact-pi1 .tx_spbettercontact_captcha img {
+  border: 1px solid #d1d1d1;
+  padding: 0;
+  margin: 0;
+}
+
+div.tx-spbettercontact-pi1 .input-container {
+    margin: 7px 0;
+}
+
+div.tx-spbettercontact-pi1 .captcha-container {
+    border-bottom: 1px solid #cdcdcd;
+    margin-left: 160px;
+    padding-bottom: 40px;
+    width: 492px;
+}
+
+.tx-srfreecap-pi2-cant-read {
+    color: black !important;
+}
+.tx-srfreecap-pi2-cant-read a {
+    color: #00437b !important;
+}
+
+.tx_spbettercontact_required_info {
+    float: left;
+    font-size: 11px;
+}

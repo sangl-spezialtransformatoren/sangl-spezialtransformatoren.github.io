@@ -1,0 +1,32 @@
+<script type="text/javascript">
+    var lang = navigator.language || navigator.userLanguage;
+    var langCode;
+
+    switch (lang) {
+        case 'de':
+        case 'de-DE':
+            langCode = '0';
+            break;
+        case 'en':
+        case 'en-US':
+        case 'en-GB':
+            langCode = '1';
+            break;
+        case 'fr':
+        case 'fr-FR':
+            langCode = '3';
+            break;
+        case 'it':
+        case 'it-IT':
+            langCode = '2';
+            break;
+        case 'ja':
+        case 'ja-JP':
+            langCode = '4';
+            break;
+        default:
+            langCode = '1'; // Default to English
+    }
+
+    window.location.href = '/home/index.html@L=' + langCode + '.html';
+</script>
